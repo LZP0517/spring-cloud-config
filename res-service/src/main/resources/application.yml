@@ -1,0 +1,11 @@
+server:
+  port: 9200
+
+spring:
+  application:
+    name: res-service-9200
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:9000/eureka/,http://127.0.0.1:9001/eureka/
